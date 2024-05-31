@@ -1,0 +1,147 @@
+:root{
+    --azulOscuro: #22577a;
+    --azulOscuroSuave: #38a3a5;
+    --verdeOrscuro: #57cc99;
+    --verde: #80ed99;
+    --verdeClaro: #c7f9cc;
+
+    --blanco: #fff;
+
+    --fontKrub:"Rubik", sans-serif;
+    --fontRubik: "Krub", sans-serif;
+}
+
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: var(--fontRubik);
+}
+
+/* Header */
+
+.header_contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azulOscuroSuave);
+    height: 80px;
+    width: 100%;
+    font-family: var(--fontKrub);
+    color: var(--blanco);
+}
+
+/* Main */
+.titulo_seccion{
+    font-family: var(--fontKrub);
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 40px;
+}
+.main_contenedor{
+    display: flex;
+    justify-content: space-between;
+    background: greenyellow;
+    overflow: hidden;
+    height: calc(100vh - 105px);
+}
+.cards_contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: #57cc99;
+    flex-grow: 1;
+    align-items: center;
+    padding: 15px;
+}
+.cards{
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #c7f9cc;
+    width: 260px;
+    height: 320px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.card_container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.card_container-value{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.card_container-value img{
+    height: 30px;
+}
+
+
+.inputs_contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: violet;
+    width: 500px;
+    padding: 15px;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin-top: 50px;
+    width: 100%;
+    align-items: center;
+
+}
+.input{
+    height: 40px;
+    width: 100% ;
+    border-radius: 5px;
+    border-style: none;
+    padding: 0 0 0 15px;
+    font-size: 20px;
+    outline: none;
+
+}
+.btn{
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Footer */
+
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    font-family: var(--fontRubik);
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+}
