@@ -62,10 +62,13 @@ p{
     padding: 15px;
 }
 .cards{
+    display: flex;
+    flex-wrap: wrap;
     overflow-y: scroll;
     width: 100%;
     height: 100%;
     padding: 15px;
+    gap: 30px;
 }
 .card{
     display: flex;
@@ -73,25 +76,42 @@ p{
     background-color: #c7f9cc;
     width: 260px;
     height: 320px;
-    border-radius: 5px;
+    border-radius: 15px;
     align-items: center;
     justify-content: space-between;
-    padding: 15px;
+}
+
+.card img{
+    width: 100%;
+    max-height: 200px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 .card_container-info{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    height: 100%;
+    padding: 20px;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 .card_container-value{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+.card_container-value p{
+    font-size: 22px;
 }
 .card_container-value img{
     height: 30px;
+    width: 30px;
+    cursor: pointer;
 }
 
 
