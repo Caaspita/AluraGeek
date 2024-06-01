@@ -1,7 +1,12 @@
 
 
 async function listarProductos(){
-    const conexion = await fetch("https://rest-api-fake.vercel.app/productos");
+    const conexion = await fetch("https://rest-api-fake.vercel.app/productos"),{
+        method: "GET",
+        headers: {
+            "content-type": "application/json"
+        }
+    };
 
     const conexionConvertida = conexion.json()
 
