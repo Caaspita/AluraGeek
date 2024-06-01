@@ -1,58 +1,34 @@
 {
   "productos": [
     {
-      "id": "29a3",
-      "titulo": "g",
-      "precio": "g $",
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_872976-MLA49449740045_032022-O.webp"
+      "id": "1",
+      "titulo": "Figura de Yuumi buscacorazones",
+      "precio": "36.99 $",
+      "imagen": "https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blt593a7eb668bcdbf0/65b1aaebebfd037e3d3cfc44/Heartseeker_Yuumi_Ruby_Chroma_Ecomm_Image_1.png?auto=webp&width=264&quality=85"
     },
     {
-      "id": "a109",
-      "titulo": "Funko POP de Draven",
-      "precio": "g $",
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_872976-MLA49449740045_032022-O.webp"
+      "id": "2",
+      "titulo": "Figura de Lux de porcelana",
+      "precio": "36.99 $",
+      "imagen": "https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blteba59804c9cdc29a/65c4089cab9c0f3036b93f66/Porcelain_Lux_Figure_Ecomm_Image_1.png?auto=webp&width=347&quality=85"
     },
     {
-      "id": "5786",
-      "titulo": "Funko POP de Draven",
-      "precio": "60$ $",
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_872976-MLA49449740045_032022-O.webp"
+      "id": "3",
+      "titulo": "Figura de Yone",
+      "precio": "36.99 $",
+      "imagen": "https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blt7d0b884b900d24fb/64d2b20cb32218d1f5660fc2/Yone_Figure_Ecomm_Image_1.png?auto=webp&width=347&quality=85"
     },
     {
-      "id": "b383",
-      "titulo": "Funko POP de Lee Sin",
-      "precio": "g $",
-      "imagen": "https://http2.mlstatic.com/D_NQ_NP_904276-MLA40037559369_122019-O.webp"
+      "id": "4",
+      "titulo": "Figura de Miss Fortune",
+      "precio": "36.99 $",
+      "imagen": "https://images.contentstack.io/v3/assets/blt5bbf09732528de36/blt6b67b1a1038acda3/641cccac63e0ae106365424d/BattleBunny-MF_Figure_Thumbnail_1.png?auto=webp&width=347&quality=85"
     },
     {
-      "id": "6892",
-      "titulo": "",
-      "precio": " $",
-      "imagen": ""
-    },
-    {
-      "id": "f346",
-      "titulo": "",
-      "precio": " $",
-      "imagen": ""
-    },
-    {
-      "id": "12a5",
-      "titulo": "",
-      "precio": " $",
-      "imagen": ""
-    },
-    {
-      "id": "e192",
-      "titulo": "",
-      "precio": " $",
-      "imagen": ""
-    },
-    {
-      "id": "782f",
-      "titulo": "",
-      "precio": " $",
-      "imagen": ""
+      "id": "5",
+      "titulo": "Figura de Anniversario",
+      "precio": "36.99 $",
+      "imagen": "https://images.contentstack.io/v3/assets/blt5bbf09732528de36/bltee4cb4f0dd92d041/64dbdb89ff472c2a0bf0c573/Ecomm-Image-Promo_Vault_ecomm_image_01.png?auto=webp&width=263&quality=85"
     }
   ]
 }
