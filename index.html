@@ -31,12 +31,12 @@
         </section>
         <aside class="inputs_contenedor">
             <p class="titulo_seccion">Agregar un producto</p>
-            <form class="formulario" action="">
-                <input class="input" type="text" placeholder="Nombre del producto">
-                <input class="input" type="text" placeholder="Precio">
-                <input class="input" type="text" placeholder="URL del producto">
+            <form class="formulario" data-formulario>
+                <input class="input" type="text" placeholder="Nombre del producto" id="titulo" data-titulo>
+                <input class="input" type="text" placeholder="Precio" id="precio" data-precio>
+                <input class="input" type="text" placeholder="URL del producto" id="imagen" data-imagen>
                 <div>
-                    <button class="btn btn-agregar">Agregar</button>
+                    <button class="btn btn-agregar" type="submit">Agregar</button>
                     <button class="btn btn-limpiar">Limpiar</button>
                 </div>
             </form>
@@ -47,5 +47,6 @@
         <p>Desarrollado por <strong><a href="https://www.linkedin.com/in/lucascaspani/" target="_blank">Caspita</a></strong></p>
     </footer>
     <script src="./js/mostrarProductos.js" type="module"></script>
+    <script src="./js/crearProducto.js" type="module"></scripts>
 </body>
 </html>
