@@ -1,3 +1,58 @@
 {
-  "productos": []
+  "productos": [
+    {
+      "id": "29a3",
+      "titulo": "g",
+      "precio": "g $",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_872976-MLA49449740045_032022-O.webp"
+    },
+    {
+      "id": "a109",
+      "titulo": "Funko POP de Draven",
+      "precio": "g $",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_872976-MLA49449740045_032022-O.webp"
+    },
+    {
+      "id": "5786",
+      "titulo": "Funko POP de Draven",
+      "precio": "60$ $",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_872976-MLA49449740045_032022-O.webp"
+    },
+    {
+      "id": "b383",
+      "titulo": "Funko POP de Lee Sin",
+      "precio": "g $",
+      "imagen": "https://http2.mlstatic.com/D_NQ_NP_904276-MLA40037559369_122019-O.webp"
+    },
+    {
+      "id": "6892",
+      "titulo": "",
+      "precio": " $",
+      "imagen": ""
+    },
+    {
+      "id": "f346",
+      "titulo": "",
+      "precio": " $",
+      "imagen": ""
+    },
+    {
+      "id": "12a5",
+      "titulo": "",
+      "precio": " $",
+      "imagen": ""
+    },
+    {
+      "id": "e192",
+      "titulo": "",
+      "precio": " $",
+      "imagen": ""
+    },
+    {
+      "id": "782f",
+      "titulo": "",
+      "precio": " $",
+      "imagen": ""
+    }
+  ]
 }

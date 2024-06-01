@@ -49,17 +49,26 @@ p{
 .main_contenedor{
     display: flex;
     justify-content: space-between;
-    background: greenyellow;
     overflow: hidden;
     height: calc(100vh - 105px);
 }
 .cards_contenedor{
     display: flex;
     flex-direction: column;
-    background-color: #57cc99;
     flex-grow: 1;
     align-items: center;
     padding: 15px;
+    max-width: 1200px;
+}
+.cards::-webkit-scrollbar {
+    background-color: transparent;
+    border-radius: 20px;
+    border: solid 1px var(--azulOscuroSuave);
+    width: 10px;
+}
+.cards::-webkit-scrollbar-thumb{
+    background-color: var(--azulOscuroSuave);
+    border-radius: 20px;
 }
 .cards{
     display: flex;
@@ -69,6 +78,7 @@ p{
     height: 100%;
     padding: 15px;
     gap: 30px;
+    max-width: 1200px;
 }
 .card{
     display: flex;
@@ -79,15 +89,13 @@ p{
     border-radius: 15px;
     align-items: center;
     justify-content: space-between;
+    border: solid 1px var(--verdeOrscuro);
 }
 
 .card img{
     width: 100%;
     max-height: 200px;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
+    border-radius: 15px;
 }
 .card_container-info{
     display: flex;
@@ -119,8 +127,8 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: violet;
-    width: 500px;
+    width: 100%;
+    max-width: 550px;
     padding: 15px;
 }
 .formulario{
@@ -136,16 +144,23 @@ p{
     height: 40px;
     width: 100% ;
     border-radius: 5px;
-    border-style: none;
+    border: solid 2px var(--azulOscuroSuave);
     padding: 0 0 0 15px;
     font-size: 20px;
     outline: none;
-
 }
 .btn{
     height: 35px;
     width: 100px;
     cursor: pointer;
+    background-color: transparent;
+    border-radius: 5px;
+    border: solid 2px var(--azulOscuroSuave);
+    font-weight: 600;
+}
+.btn-agregar{
+    background-color: var(--azulOscuroSuave);
+    color: white;
 }
 
 
@@ -157,11 +172,14 @@ p{
 .footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 25px;
+    background-color: var(--azulOscuroSuave);
     font-family: var(--fontRubik);
+    color: white;
 }
 
 .footer a{
-    color: black;
+    color: white;
     text-decoration: none;
 }

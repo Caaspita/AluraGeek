@@ -1,7 +1,7 @@
 
 
 async function listarProductos(){
-    const conexion = await fetch("http://localhost:3001/productos");
+    const conexion = await fetch("https://rest-api-fake.vercel.app/productos");
 
     const conexionConvertida = conexion.json()
 
@@ -9,7 +9,7 @@ async function listarProductos(){
 }
 
 async function enviarProducto(titulo, precio, imagen){
-    const conexion = await fetch("http://localhost:3001/productos", {
+    const conexion = await fetch("https://rest-api-fake.vercel.app/productos", {
         method: "POST",
         headers: {"Content-type":"application/json"},
         body: JSON.stringify({
@@ -22,7 +22,7 @@ async function enviarProducto(titulo, precio, imagen){
     return conexionConvertida;
 }
 async function eliminarProducto(id){
-    return fetch(`http://localhost:3001/productos/${id}`,{
+    return fetch(`https://rest-api-fake.vercel.app/productos/${id}`,{
         method: "DELETE"
 
     });
