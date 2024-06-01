@@ -3,7 +3,7 @@ import { conexionAPI } from "./conexionAPI.js";
 const formulario = document.querySelector("[data-formulario]");
 const borrar = document.querySelector(".btn-limpiar")
 
-async function crearProducto(evento){
+async function crearProducto(){
 
     const titulo = document.querySelector("[data-titulo]").value;
     const precio = document.querySelector("[data-precio]").value;

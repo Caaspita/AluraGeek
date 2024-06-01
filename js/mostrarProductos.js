@@ -23,7 +23,6 @@ export default function crearCard(titulo, precio, imagen, id){
         conexionAPI.eliminarProducto(id);
         producto.remove();
     })
-
     return producto;
 }
 

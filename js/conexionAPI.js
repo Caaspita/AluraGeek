@@ -1,15 +1,7 @@
 
-
 async function listarProductos(){
-    const conexion = await fetch("https://rest-api-fake.vercel.app/productos"),{
-        method: "GET",
-        headers: {
-            "content-type": "application/json"
-        }
-    };
-
-    const conexionConvertida = conexion.json()
-
+    const conexion = await fetch("https://rest-api-fake.vercel.app/productos")
+    const conexionConvertida = await conexion.json()
     return conexionConvertida
 }
 
@@ -23,18 +15,15 @@ async function enviarProducto(titulo, precio, imagen){
             imagen:imagen
         })
     })
-    const conexionConvertida = conexion.json();
+    const conexionConvertida = await conexion.json();
     return conexionConvertida;
 }
 async function eliminarProducto(id){
     return fetch(`https://rest-api-fake.vercel.app/productos/${id}`,{
         method: "DELETE"
-
     });
 }
-
 
 export const conexionAPI={
     listarProductos, enviarProducto, eliminarProducto
 }
-//listarProductos();
